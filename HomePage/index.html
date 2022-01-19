@@ -5,7 +5,7 @@
         <title>Myntra Clone-Online Shopping</title>
         <link rel="shortcut icon" href="https://i.ibb.co/h7PHPqX/myntra-logo.jpg" type="image/x-icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="../HomePage/homepage.css">
+        <link rel="stylesheet" href="homepage.css">
     </head>
 
     <body>
@@ -73,7 +73,16 @@
         <!--Category Dropdowns Starts -->
 
         <!--Category Dropdowns Ends -->
-
+        <!--Geolocation-->
+            <div>
+                <button onClick="geolocation()">
+                    Get Location
+                </button>
+                <p id="out"></p>
+                <div id="icon"></div>
+                <p id="address"></p>
+            </div>
+        <!--Geolocation-->
         <!--Advertisement Banner Starts (Carousel)-->
             <div class="carousel-ads">
                 <div class="slide-show mySlides">
@@ -467,5 +476,5 @@
 
     </body>
 
-    <script src="../HomePage/homepage.js"></script>
+    <script src="homepage.js"></script>
 </html>
